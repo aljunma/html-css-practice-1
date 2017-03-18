@@ -1,0 +1,196 @@
+/*
+  * Project: CITE-Upskilling Practice 1
+  * Author: aljun
+  * Author URI: http://www.aljunmajo
+  * Description: Simple HTML5 markup Practice
+  * Date: 3.18.2017
+  * Version: 1.0.2
+ */
+
+/*
+https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,400|Open+Sans:300,400,600
+font-family: 'Arima Madurai', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* Default Settings */
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,400|Open+Sans:300,400,600);
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html {
+    font-size: 62.5%; /* 10px browser default */
+}
+
+/* Chrome fix */
+body > div {
+    font-size: 1.6rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #9a9a9a;
+    font-size: 16px; /* based font 16px */
+    font-size: 1.6rem;
+    font-weight: normal;
+    height: auto;
+    width: 960px;
+    margin: 50px auto;
+}
+main {
+    overflow: hidden;
+    height: 700px;
+
+}
+
+/* ==========================================================================
+   Container
+   ========================================================================== */
+main {
+    text-align: center;
+}
+main > section {
+   
+}
+main > section:first-of-type {
+    float: left;
+    width: 32%;
+    padding: 1%;
+}
+main > section:last-of-type {
+    float: right;
+    width: 60%;
+    padding: 1%;
+}
+/* ==========================================================================
+   Borders, Color, Background, height
+   ========================================================================== */
+main > section {
+    border: 3px solid #ffa89c;
+    height: 500px;
+}
+main > header,
+main > footer{
+    height: 50px;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > header {
+    border: 3px solid #ffa89c;
+}
+main > footer {
+    clear: both;
+    border: 3px solid #ffa89c;
+}
+
+/* section sidebar */
+main > section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main > section > header {
+
+}
+main > section:first-of-type header,
+main > section:first-of-type nav,
+main > section:first-of-type footer {
+    background-color: lightgray;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > section:first-of-type header,
+main > section:first-of-type footer {
+    height: 10%;
+}
+main > section:first-of-type header {
+
+}
+main > section:first-of-type nav {
+    height: 73%;
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
+}
+main > section:first-of-type footer {}
+
+    /* section content */
+main > section > header,
+main > section > footer {
+    background-color: lightgray;
+}
+main > section > article {
+    background-color: lightgray;
+    padding: 10px;
+    height: 31%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+main > section > article > header,
+main > section > article > p,
+main > section > article > footer,
+main > section > article > aside {
+    background-color: aliceblue;
+}
+main > section > article:first-of-type {}
+main > section > article:first-of-type header,
+main > section > article:first-of-type p,
+main > section > article:first-of-type footer {
+    height: 19%;
+    margin-bottom: 2%;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > section > article:last-of-type > header {
+    margin-bottom: 20px;
+}
+main > section > article:last-of-type > p {
+    width: 63%;
+    margin-right: 2%;
+    float: left;
+    margin-bottom: 20px;
+    height: 70px;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > section > article:last-of-type > aside {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    margin-bottom: 20px;
+    height: 70px;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > section > article:last-of-type > footer {
+    clear: both;
+}
+main > section > footer {}
+main > section > header,
+main > section > footer {
+    height: 10%;
+    /* flex just to center align horizontal and vertical | but this is not supported in most browsers(old) */
+    /* This is just for my presentation not ideal for prodction */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
